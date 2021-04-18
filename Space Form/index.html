@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER APPLICATION </title>
+    <style>
+        body{
+            padding:25px 50px;
+            background-color: black;
+            color:white;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',' Geneva ', 'Verdana', 'sans-serif';
+            font-size:16px;
+        }
+        .TheFirstSection{
+             /* background-color: blueviolet;                                        /*remmber to delet the bakcground color */
+             /* border:white 3px solid; */
+            height:90vh;
+            width:100%;
+            display:flex;
+            margin:5px;
+            margin:0px;
+        }
+        .TheFirstSection > div{
+            height:90vh;
+            width:50%;
+            overflow: auto;
+        }
+        .one{
+            background-image:url("wp2554597.jpg");
+            background-repeat:no-repeat;
+            background-position: center right;
+            border-top-left-radius:15%;
+            border-bottom-left-radius:15%;
+            text-align: center;
+            border-right:#BD5FE8 2px solid;
+        }
+        .one > div{
+            width:fit-content;
+            text-align: center;
+            border:white 1px solid;
+            padding: 5px;
+            position:relative;
+            top:33%;
+            left:38%;
+        }
+        .haxagon{
+            text-align: center;
+            height:150px;
+            width:100px;
+            border:white 5px solid;
+            padding:10px;
+        }
+        .haxagon > h1 {
+            font-size:1.9rem;
+            color:#10082B;
+            font-weight: bolder;
+            text-shadow:2px 2px 2px #10082B;
+        }
+        .tow{
+            background-color:#020528;
+            border-top-right-radius: 15%;
+            border-bottom-right-radius: 15%;
+            border-left:#BD5FE8 2px solid;
+        }
+        .two_1{
+            text-align: center;
+            position:relative;
+            top:10%;
+        }
+        .two_1 > div > h1{
+            font-size: 2rem;
+            font-weight: bolder;
+            text-shadow: 1px 1px 2px white;
+            line-height: 5px;
+        }
+        .two_1 > div > h4{
+            font-size:.5rem;
+            color:#BD5FE8;
+            line-height: 0px;
+        }
+        .two_1 > form {
+            margin: auto;
+            margin-top: 30px;
+            width:60%;
+        }
+        .two_1 > form > input {
+            width:100%;
+            margin:8px 0px;
+            padding:7px 2px;
+            background-color: transparent;
+            border:none;
+            border-bottom:grey 2px solid;
+        }
+        .two_1 > form > button{
+            margin-top: 8px;
+            width:60%;
+            background-color:#28268F;
+            border:#28268F 1px solid;
+            border-radius: 20px;
+            color:white;
+            padding:15px 20px;
+        }
+        .two_1 > form > button:hover{
+            background-color:white;
+            color:#020528;
+            border:white 1px solid;
+            font-weight: bolder;
+            box-shadow:1px 1px 5px white;
+        }
+    </style>
+</head>
+<body>
+<!------------------------------------------------------------------------------------------->
+<section class="TheFirstSection">
+    <div class="one">
+        <div>
+            <div class="haxagon">
+                <h3>COMPANY </h3>
+                <h1>LOGO </h1>
+                <h3>Name </h3>
+            </div>
+        </div>
+    </div>
+    <div class="tow">
+        <div class="two_1">
+            <div>
+                <h1>REGISTER </h1>
+                <h4>IT'S COMPLETELY FREE </h4>
+            </div>
+            <form method="POST" target=" ">
+                <input type="text" placeholder="Your Full Name" name="name">
+                <input type="text" placeholder="User Name" name="userName">
+                <input type="email" placeholder="Email Address" name="email">
+                <input type="password" placeholder="Password" name="password">
+                <input type="password" placeholder="Conferm Password" name="confermPassword">
+                <div style="display: flex; margin-top: 5px;"> 
+                    <input type="checkbox" name="lorem">
+                    <labe><p style="font-size: 0.5rem;color:#BD5FE8;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum magnam praesentium eaque eligendi ipsa quae ullam illum nemo quis sapiente tempore, minus totam alias eius labore earum dolor fugiat vero.</p></label>
+                </div>
+                <button type="submit">CREAT ACCOUNT </button>
+            </form>
+            <a href="# " target="_blank" style="font-size:0.6rem ;color:white;">I'm Alredy A Member </a>
+        </div>
+    </div>
+</section>
+<!------------------------------------------------------------------------------------------->
+</body>
+</html>
